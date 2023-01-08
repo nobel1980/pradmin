@@ -50,17 +50,17 @@ return [
     /*
      * ReCaptcha Status
      */
-    'reCaptchStatus' => env('ENABLE_RECAPTCHA', false),
+    'reCaptchStatus' => env('ENABLE_RECAPTCHA', true),
 
     /*
      * ReCaptcha Site Key
      */
-    'reCaptchSite'   => env('RE_CAP_SITE', 'YOURGOOGLECAPTCHAsitekeyHERE'),
+    'reCaptchSite'   => env('RE_CAP_SITE', '6LcChcEjAAAAADlA8saY-k1A3ObXOoLeSMNHFO1F'),
 
     /*
      * ReCaptcha Secret
      */
-    'reCaptchSecret' => env('RE_CAP_SECRET', 'YOURGOOGLECAPTCHAsecretHERE'),
+    'reCaptchSecret' => env('RE_CAP_SECRET', '6LcChcEjAAAAAMN9xlEr2T3Yk0cy2Y6nVFEUawc8'),
 
     /*
      * Google Maps API V3 Status

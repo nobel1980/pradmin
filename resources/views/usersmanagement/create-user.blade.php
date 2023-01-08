@@ -26,6 +26,7 @@
                     </div>
 
                     <div class="card-body">
+                        @include('partials.search-emp-form')
                         {!! Form::open(array('route' => 'users.store', 'method' => 'POST', 'role' => 'form', 'class' => 'needs-validation')) !!}
 
                             {!! csrf_field() !!}

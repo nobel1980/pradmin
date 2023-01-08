@@ -85,6 +85,8 @@ return [
         'email-user'    => 'Email :user',
         'submit-search' => 'Submit Users Search',
         'clear-search'  => 'Clear Search Results',
+        'submit-emp' => 'Submit Employee Search',
+        'clear-emp'  => 'Clear Employee Results',
     ],
 
     'messages' => [
@@ -122,6 +124,7 @@ return [
         'found-footer'      => ' Record(s) found',
         'no-results'        => 'No Results',
         'search-users-ph'   => 'Search Users',
+        'search-emp-ph'   => 'Search Employee',
     ],
 
     'modals' => [

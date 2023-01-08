@@ -120,6 +120,8 @@ Route::group(['middleware' => ['auth', 'activated', 'role:admin', 'activity', 't
     ]);
     Route::post('search-users', 'App\Http\Controllers\UsersManagementController@search')->name('search-users');
 
+    Route::post('search-emp', 'App\Http\Controllers\UsersManagementController@search_emp')->name('search-emp');
+
     Route::resource('themes', \App\Http\Controllers\ThemesManagementController::class, [
         'names' => [
             'index'   => 'themes',
